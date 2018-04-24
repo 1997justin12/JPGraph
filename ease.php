@@ -190,7 +190,7 @@ class PrintInformation{
 		foreach($barPlot as $value){
 			$plotData = 0;
 			foreach ($value as $points) {
-				$plotData += $points;
+				$plotData += 1;
 			}
 			$arrayPlot[] = $plotData;						
 		}
